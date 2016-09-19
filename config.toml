@@ -1,0 +1,28 @@
+baseurl = "http://nbia.github.io/nbia/"
+languageCode = "en-us"
+title = "Nathaniel Bia"
+theme = "hugo-lithium-theme"
+googleAnalytics = ""
+disqusShortname = ""
+
+[permalinks]
+    post = "/:year/:month/:day/:title/"
+    page = "/:title/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+[[menu.main]]
+    name = "Courses"
+    url = "/courses/"
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+
+[params]
+    description = "Digital portfolio of coursework."
+
+    [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
